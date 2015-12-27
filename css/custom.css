@@ -1,0 +1,57 @@
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; 
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.carzeug--content {
+    background-color: rgb(218, 218, 218);
+    max-width: 1024px;
+    width: auto;
+}
+
+/****************************/
+/***********LAYOUT***********/
+/****************************/
+.padding-right {
+  padding-right: 0.5rem!important;
+}
+
+
+/********************************/
+/***********NAVIGATION***********/
+/********************************/
+.nav__list {
+    list-style: none;
+    margin: 0;
+}
+
+.nav__item {
+  float: left;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.nav__link {
+    position: relative;
+    display: block;
+    height: auto;
+    background-color: rgb(22, 29, 50);
+    cursor: pointer;
+}
+
+
+/***************************************/
+/***********NAVIGATION IMAGES***********/
+/***************************************/
